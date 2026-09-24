@@ -1,0 +1,85 @@
+/*h1*/
+.header1 {
+	font-size: 60px;
+	background-color: black;
+	color: white;
+}
+
+/*h2*/
+.header2 {
+	font-size: 40px;
+}
+
+/*h3*/
+.header3 {
+	font-size: 24px;
+}
+
+/*links in navigation*/
+.menu-text {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/*quotation big*/
+.quote-big {
+	font-size: 40px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+/*quotation small*/
+.quote-small {
+	font-size: 16px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+/*main text*/
+.main-text {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 150%;
+	font-family: "Open Sans", sans-serif;
+
+	/*main text light, used as placeholder for input*/
+	&--light {
+		font-size: 20px;
+		color: #b8b58b;
+		line-height: 150%;
+	}
+
+	/*main text big*/
+	&--big {
+		font-size: 30px;
+	}
+
+	/*main big text, used to write clients` names*/
+	&--bold {
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	/*main big text, used to write authors` names*/
+	&--small {
+		font-family: "Open Sans", sans-serif;
+		font-size: 13px;
+	}
+}
+
+
+.btn {
+	border: 1px solid #151618;
+	padding: 12px 41px;
+	background-color: white;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: "Open Sans", sans-serif;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+

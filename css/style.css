@@ -1,0 +1,244 @@
+/*reset css*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*h1*/
+.header1 {
+  font-size: 60px;
+  background-color: black;
+  color: white;
+}
+
+/*h2*/
+.header2 {
+  font-size: 40px;
+}
+
+/*h3*/
+.header3 {
+  font-size: 24px;
+}
+
+/*links in navigation*/
+.menu-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+/*quotation big*/
+.quote-big {
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*quotation small*/
+.quote-small {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*main text*/
+.main-text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+/*main big text, used to write clients` names*/
+.main-text--bold {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*main big text, used to write authors` names*/
+.main-text--small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/*basic style*/
+body {
+  font-family: "Cormorant";
+  color: #151618;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.wrap {
+  min-width: 320px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.img-normalize {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*@import "./blocks";
+@import "./blocks";
+@import "./blocks";
+@import "./blocks";
+@import "blocks";*/
+@media (min-width: 768px) {
+  .hidden--desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

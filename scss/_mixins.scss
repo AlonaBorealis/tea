@@ -1,0 +1,24 @@
+@mixin min-max($min-width, $max-width) {
+	min-width: $min-width;
+	max-width: $max-width;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+@mixin img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+@mixin mobile {
+	@media (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: 768px) {
+		@content;
+	}
+}

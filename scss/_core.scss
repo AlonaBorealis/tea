@@ -1,0 +1,24 @@
+/*basic style*/
+
+body {
+	font-family: "Cormorant";
+	color: #151618;
+}
+
+a {
+	text-decoration: none;
+	color: #151618;
+}
+
+.container {
+	@include min-max(320px, 100%);
+}
+
+.wrap {
+	@include min-max(320px, 1200px);
+	padding: 0 20px;
+}
+
+.img-normalize {
+	@include img;
+}
