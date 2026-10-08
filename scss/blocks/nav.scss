@@ -1,5 +1,4 @@
 .nav {
-	box-sizing: content-box;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -37,5 +36,10 @@
 	&__user-icons {
 		display: flex;
 		gap: 20px;
+	}
+	&__search-btn {
+		border: none;
+		background: transparent;
+		cursor: pointer;
 	}
 }

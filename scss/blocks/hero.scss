@@ -1,0 +1,57 @@
+.hero {
+	margin: 150px auto;
+	position: relative;
+
+	&__quote {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 40px;
+			left: 60%;
+			z-index: -1;
+			width: 259px;
+			height: 61px;
+			background-color: #F7F2EA;
+		}
+	}
+
+	&__quote-text{
+		max-width: 704px;
+		text-align: center;
+		margin-bottom: 150px;
+	}
+
+	&__collections {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 60px;
+	}
+
+	&__varieties-of-tea {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 40px;
+	}
+
+	&__h3-with-the-tea-name {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	&__img-of-tea {
+		width: 208px;
+		transition: scale 0.5s ease;
+		&:hover {
+			scale: 1.08;
+		}
+	}
+
+}
+
+

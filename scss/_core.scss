@@ -17,8 +17,13 @@ a {
 .wrap {
 	@include min-max(320px, 1200px);
 	padding: 0 20px;
+	box-sizing: content-box;
 }
 
 .img-normalize {
 	@include img;
+}
+
+button {
+	cursor: pointer;
 }

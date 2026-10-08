@@ -1,7 +1,6 @@
 /*h1*/
 .header1 {
 	font-size: 60px;
-	background-color: black;
 	color: white;
 }
 
@@ -22,6 +21,13 @@
 	font-weight: 400;
 }
 
+.footer-text {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #151618;
+}
+
 /*quotation big*/
 .quote-big {
 	font-size: 40px;
@@ -31,8 +37,8 @@
 
 /*quotation small*/
 .quote-small {
-	font-size: 16px;
-	font-weight: 300;
+	font-size: 18px;
+	font-weight: 400;
 	font-style: italic;
 }
 
@@ -62,10 +68,11 @@
 		font-weight: 600;
 	}
 
-	/*main big text, used to write authors` names*/
+	/*main small text, used to write authors` names*/
 	&--small {
 		font-family: "Open Sans", sans-serif;
 		font-size: 13px;
+
 	}
 }
 
@@ -77,8 +84,13 @@
 	font-size: 20px;
 	font-weight: 300;
 	font-family: "Open Sans", sans-serif;
+	transition: background-color 0.5s ease;
 	&:hover {
+		background-color: #F7F2EA;
 		cursor: pointer;
+	}
+	&:active {
+		background-color: #c6c39c;
 	}
 }
 
